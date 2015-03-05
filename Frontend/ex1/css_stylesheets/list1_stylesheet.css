@@ -8,9 +8,10 @@ body {
   width:80%;
   height:20%;
   padding: 10px;
-  margin: 20px 20px 20px 10%;
+  margin: 20px 20px 20px 8%;
   border: 10px solid;
-  /*float: center;*/
+  text-align: center;
+
 }
 
 h1 {
@@ -19,41 +20,79 @@ h1 {
   letter-spacing: 3px;
 }
 
+h2 {
+  text-align: center;
+  margin: 3px;
+}
+
+h4 {
+  text-align: center;
+  margin:0;
+}
+
+.traits {
+  float: center;
+  margin: 0px;
+}
+
+ul {
+  list-style-type: circle;
+  float: left;
+}
+
+ol {
+  list-style-type: circle;
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-right: 275;
+  /*float: right;*/
+/*  margin-top: 10px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  margin-left: 10px;*/
+  /*text-align: right;*/
+  /*padding: left;*/
+  /*margin: 0px;*/
+}
+
 .nation#fire {
   width: 40%;
-  height:50%;
-  padding: 10px;
-  margin: 20px 20px 20px 40px;
-  border: 10px solid;
+  padding: 1%;
+  margin: 1%;
+  border: 15px double;
   float: left;
 }
 
 .nation#air {
   width: 40%;
-  height:50%;
-  padding: 10px;
- margin: 20px 40px 20px 20px;
-  border: 10px solid;
+  padding: 1%;
+  margin: 1%;
+  border: 15px double;
   float: right;
 
 }
 
 .nation#water {
   width: 40%;
-  height:50%;
-  padding: 10px;
- margin: 20px 20px 20px 40px;
-  border: 10px solid;
+  padding: 1%;
+  margin: 1%;
+  border: 15px double;
   float: left;
 }
 
 .nation#earth {
   width: 40%;
-  height:50%;
-  padding: 10px;
-   margin: 20px 40px 20px 20px;
-  border: 10px solid;
+  padding: 1%;
+   margin: 1%;
+  border: 15px double;
   float: right;
 }
+
+/** {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}*/
 
 /* box-sizing: border-box; magic thing that resizes to specification*/
