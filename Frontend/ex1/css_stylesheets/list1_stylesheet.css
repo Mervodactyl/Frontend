@@ -89,10 +89,10 @@ ol {
   float: right;
 }
 
+/* box-sizing: border-box; magic thing that resizes to specification*/
+
 /** {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }*/
-
-/* box-sizing: border-box; magic thing that resizes to specification*/
