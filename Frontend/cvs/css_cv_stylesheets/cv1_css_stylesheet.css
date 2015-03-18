@@ -1,0 +1,70 @@
+/*  CSS stylesheet for - 'Frontend/cvs/cv1.html'
+*
+*   <style type="text/css">
+*
+*   Standard size
+=============================================================================*/
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  padding: 10px;
+}
+
+header {
+  padding: 15px;
+  margin: 0;
+  background-color: blue;
+}
+
+aside {
+  padding: 15px;
+  margin: 0;
+  background-color: red;
+}
+
+.skill-sections li {
+  padding: 15px;
+  margin: 0;
+  background-color: yellow;
+}
+
+nav {
+  padding: 15px;
+  margin: 0;
+  background-color: purple;
+}
+
+main {
+  padding: 15px;
+  margin: 0;
+  background-color: orange;
+}
+
+#education {
+  padding: 15px;
+  margin: 0;
+  background-color: green;
+}
+
+#strengths {
+  padding: 15px;
+  margin: 0;
+  background-color: pink;
+}
+
+#interests {
+  padding: 15px;
+  margin: 0;
+  background-color: violet;
+}
+
+#references {
+  padding: 15px;
+  margin: 0;
+  background-color: indigo;
+}
