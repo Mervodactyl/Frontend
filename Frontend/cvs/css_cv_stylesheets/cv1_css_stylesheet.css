@@ -17,6 +17,18 @@ html, body {
   /*padding: 10px;*/
 }
 
+h1 {
+  background-color: white;
+}
+
+h2 {
+  background-color: #FF530D;
+}
+
+h3 {
+  background-color: white;
+}
+
 aside {
   position: fixed;
   top: 0;
@@ -26,10 +38,14 @@ aside {
   padding: 15px;
   background-color: gray;
 }
-  #contact {
+  aside #info-card {
     padding: 15px;
-    background-color: white;
+    background-color: #4AC3FF;
   }
+    aside #info-card #contact {
+      padding: 15px;
+      background-color: #B24813;
+    }
 
 main {
   float: right;
@@ -46,6 +62,9 @@ main {
   overflow: hidden;
   background-color: blue;
 }
+  #profile p {
+    background-color: #F5F6CE;
+  }
 
 #skills {
   padding: 15px;
@@ -53,7 +72,7 @@ main {
   overflow: hidden;
   background-color: red;
 }
-  .skill-sections li {
+  #skills .skill-sections {
     padding: 15px;
     margin: 0;
     background-color: yellow;
@@ -64,30 +83,80 @@ nav {
   margin: 0;
   background-color: purple;
 }
+  nav ul {
+    padding: 15px;
+    margin: 0;
+    background-color: #FAAC58;
+  }
 
 #history {
   padding: 15px;
   margin: 0;
   background-color: orange;
 }
+  .position {
+    padding: 15px;
+    margin: 0;
+    background-color: #01DF74;
+  }
+  .dates {
+      padding: 15px;
+      margin: 0;
+      background-color: #FA5858;
+  }
+  .summary {
+    padding: 15px;
+    margin: 0;
+    background-color: #9AFE2E;
+  }
 
 #education {
   padding: 15px;
   margin: 0;
   background-color: green;
 }
+  #makers {
+    padding: 15px;
+    margin: 0;
+    background-color: #F6CEE3;
+  }
+  #uni {
+    padding: 15px;
+    margin: 0;
+    background-color: #9FF781;
+  }
+  #wanstead {
+    padding: 15px;
+    margin: 0;
+    background-color: #FA5882;
+  }
+  #school {
+    padding: 15px;
+    margin: 0;
+    background-color: #F6CEE3;
+  }
 
 #strengths {
   padding: 15px;
   margin: 0;
   background-color: pink;
 }
+  #strengths #strengths-points {
+    padding: 15px;
+    margin: 0;
+    background-color: white;
+  }
 
 #interests {
   padding: 15px;
   margin: 0;
   background-color: violet;
 }
+  #interests p {
+    padding: 15px;
+    margin: 0;
+    background-color: yellow;
+  }
 
 #references {
   padding: 15px;

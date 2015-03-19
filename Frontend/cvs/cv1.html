@@ -7,18 +7,19 @@
   </head>
     <body>
       <aside>
-        <div id="contact">
-          <h1>CV</h1>
-          <p>Mervé Silk</p>
-          <p>Junior Front End Developer</p>
-          <p>07984 474 882</p>
-          <p>London, N4 2JW</p>
+        <div id="info-card">
+          <div id="contact">
+            <p>Mervé Silk</p>
+            <p>Junior Front End Developer</p>
+            <p>07984 474 882</p>
+            <p>London, N4 2JW</p>
+          </div>
       </div>
       </aside>
         <main>
           <div id="profile">
             <h2>Profile</h2>
-              <p>After trying my hand at project management and planning engineering, I came to the realization that my true passion lay in problem solving and tech. I decided to enrol at Makers Academy on their 12 week intensive programming and web development course. It has been exhilarating, exhausting, frustrating and fun. I’m now looking for a full time role as a Junior Developer in a place I can expand my skills, commit to the projects at hand and learn to write great code which solve real world problems.</p>
+              <p id="statement">After trying my hand at project management and planning engineering, I came to the realization that my true passion lay in problem solving and tech. I decided to enrol at Makers Academy on their 12 week intensive programming and web development course. It has been exhilarating, exhausting, frustrating and fun. I’m now looking for a full time role as a Junior Developer in a place I can expand my skills, commit to the projects at hand and learn to write great code which solve real world problems.</p>
           </div>
             <div id="skills">
               <h2>Skills:</h2>
@@ -67,8 +68,8 @@
                   <h2>Employment History:</h2>
                     <p class="position">Student, Makers Academy</p>
                     <p class="dates">Aug 14 - Oct 14</p>
-                      <h3 class="summary">Summary</h3>
-                        <ul>
+                      <h3>Summary</h3>
+                        <ul class="summary">
                           <li>Highly selective 12 week web development programme, interview/exam based entry</li>
                           <li>Focused on teaching best practices across the board including TDD and OOP both Front and Backend</li>
                           <li>Encouraged self reliance in the field of code and pushing you out of your comfort zone</li>
@@ -76,8 +77,8 @@
                         </ul>
                     <p class="position">Project Manager/Creative Director, CritterCorder</p>
                     <p class="dates">Jan 13 - March 14</p>
-                      <h3 class="summary">Summary</h3>
-                      <ul>
+                      <h3>Summary</h3>
+                      <ul class="summary">
                         <li>Understand how to adapt to StartUp company requirements</li>
                         <li>Co- ordinate entire project and ensure the campaign runs smoothly</li>
                         <li>Make the final decisions on all art related CritterCorder formats – Logo/ posters/ banners etc</li>
@@ -86,8 +87,8 @@
                       </ul>
                     <p class="position">Volunteer Co-ordinator, The Ragged University</p>
                     <p class="dates">Jan 13 - Aug 13</p>
-                      <h3 class="summary">Summary</h3>
-                      <ul>
+                      <h3>Summary</h3>
+                      <ul class="summary">
                         <li>Coordinate with team members to organise upcoming events</li>
                         <li>Edit articles relevant to the issues surrounding the Ragged University</li>
                         <li>Find guest speakers for future lectures</li>
@@ -95,8 +96,8 @@
                       </ul>
                     <p class="position">Planning Engineering Assistant, Amber Project London Ltd </p>
                     <p class="dates">April 12 – Sept 12</p>
-                      <h3 class="summary">Summary</h3>
-                      <ul>
+                      <h3>Summary</h3>
+                      <ul class="summary">
                         <li>Create and maintain Engineering Plans</li>
                         <li>Update Programme and Progress reporting, verifying consistency with previous reports to facilitate compatibility. Issue reports in support of the programmes reporting processes</li>
                         <li>Compiling, summarising, updating, and maintaining historical schedule data</li>
@@ -106,8 +107,8 @@
                       </ul>
                     <p class="position">Recruitment Consultant, Project Resource</p>
                     <p class="dates">Jan 12- Mar 12</p>
-                      <h3 class="summary">Summary</h3>
-                      <ul>
+                      <h3>Summary</h3>
+                      <ul class="summary">
                         <li>Development of my own business area through proactive marketing drives, structured selling and networking techniques</li>
                         <li>Management of the recruitment process from start to finish</li>
                         <li>Development of the existing database by adding new job seekers that add value to the database and our clients’ needs</li>
@@ -115,24 +116,24 @@
                       </ul>
                     <p class="position">Front of House Administrator and UK Co-ordinator, Banardos Children’s Charity</p>
                     <p class="dates">Feb 08 - May 08</p>
-                      <h3 class="summary">Summary</h3>
-                      <ul>
+                      <h3>Summary</h3>
+                      <ul class="summary">
                         <li>Promoted twice despite this being temp role (filing clerk -> receptionist -> head admin)</li>
                         <li>Responsible for interregional stock management and creative dept. admin needs (note taking, diary organisation, travel coordination etc)</li>
                         <li>General Admin duties</li>
                       </ul>
                     <p class="position">Receptionist, Bart-Williams and Co Solicitors</p>
                     <p class="dates">Oct 08 - Jan 08</p>
-                      <h3 class="summary">Summary</h3>
-                      <ul>
+                      <h3>Summary</h3>
+                      <ul class="summary">
                         <li>Responsible for the completion of ‘Last Will and Testaments’ along with other documents of importance</li>
                         <li>Took the initiative to coordinate the company’s records into a more efficient system</li>
                         <li>General Admin duties</li>
                       </ul>
                     <p class="position">Creative Arts Teacher and Camp Counsellor, French Woods Performing Arts Camp</p>
                     <p class="dates">Jun 07 - Aug 07</p>
-                      <h3 class="summary">Summary</h3>
-                      <ul>
+                      <h3>Summary</h3>
+                      <ul class="summary">
                         <li>Accountable for risk management whilst seeing to the development of practical Art techniques such as metal work, print screening, woodcraft etc</li>
                         <li>Lead and teach up to 21 class members at any time</li>
                         <li>Create a positive and creative learning environment for all ages</li>
@@ -140,44 +141,46 @@
                 </div>
                   <section id="education">
                     <h2>Education</h2>
-                      <div>
+                      <div id="makers">
                         <p>Full Stack Web Development Student</p>
                         <p>Makers Academy</p>
                         <p>Aug 14 - Oct 14</p>
-                        <p>Reference above for more details</p>
+                          <p>Reference above for more details</p>
                       </div>
-                      <div>
+                      <div id="uni">
                         <p>BA, World History</p>
                         <p>Royal Holloway, Universoty of London (UCL campus)</p>
                         <p>Sept 08 - Jul 11</p>
-                        <p>I learned various investigative methodologies, creative thought and analysis, not to mention the ability to debate some of the most sensitive topics of the time. Added to this the keys to this degree was self-reliance, presentation skills, negotiation, attention to detail, and the capacity to work under pressure.</p>
+                          <p>I learned various investigative methodologies, creative thought and analysis, not to mention the ability to debate some of the most sensitive topics of the time. Added to this the keys to this degree was self-reliance, presentation skills, negotiation, attention to detail, and the capacity to work under pressure.</p>
                         <p>Modules Inc:</p>
-                        <p>‘The History of Terrorism’</p>
-                        <p>‘Researching and Writing Critical History’</p>
-                        <p>‘Plagiarism and Original thought’</p>
+                          <p>‘The History of Terrorism’</p>
+                          <p>‘Researching and Writing Critical History’</p>
+                          <p>‘Plagiarism and Original thought’</p>
                       </div>
-                      <div>
+                      <div id="wanstead">
                         <p>A-Levels, AS levels</p>
                         <p>Wanstead Sixth-Form College</p>
-                        <p>Classical Civilisation</p>
-                        <p>Geography</p>
-                        <p>English Combined</p>
-                        <p>Psychology</p>
-                        <p>General Studies</p>
+                          <p>Classical Civilisation</p>
+                          <p>Geography</p>
+                          <p>English Combined</p>
+                          <p>Psychology</p>
+                          <p>General Studies</p>
                       </div>
-                      <div>
+                      <div id="school">
                         <p>GCSEs</p>
                         <p>Caterham Secondary School</p>
-                        <p>9 A- C’s (Extra language subject in Turkish - naturally Bilingual)</p>
+                          <p>9 A- C’s (Extra language subject in Turkish - naturally Bilingual)</p>
                       </div>
                   </section>
                 <div id="strengths">
-                  <h2>Personal Strangths</h2>
-                    <p>Excellent Communicator</p>
-                    <p>Experience working in pressured environments</p>
-                    <p>Creative</p>
-                    <p>Proactive</p>
-                    <p>Takes Initiative</p>
+                  <h2>Personal Strengths</h2>
+                    <div id="strengths-points">
+                      <p>Excellent Communicator</p>
+                      <p>Experience working in pressured environments</p>
+                      <p>Creative</p>
+                      <p>Proactive</p>
+                      <p>Takes Initiative</p>
+                  </div>
                 </div>
               <div id="interests">
                 <h2>Interests</h2>
