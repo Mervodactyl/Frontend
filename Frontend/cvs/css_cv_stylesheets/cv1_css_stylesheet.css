@@ -18,15 +18,26 @@ html, body {
 }
 
 h1 {
+  padding: 5px;
+  margin: 0;
   background-color: white;
 }
 
 h2 {
+  padding: 5px;
+  margin: 0;
   background-color: #FF530D;
 }
 
 h3 {
+  padding: 5px;
+  margin: 0;
   background-color: white;
+}
+
+p {
+  padding: 5px;
+  margin: 0;
 }
 
 aside {
@@ -38,11 +49,21 @@ aside {
   padding: 15px;
   background-color: gray;
 }
+  aside img {
+    /*padding: 10% 10% 10% 20%;*/
+    /*float: right;*/
+    margin: 0;
+    width: 48%;
+    height: 40%;
+    border-radius: 50%
+  }
   aside #info-card {
     padding: 15px;
-    background-color: #4AC3FF;
+    background-color: white;
   }
     aside #info-card #contact {
+      /*clear: left;*/
+      /*float: right;*/
       padding: 15px;
       background-color: #B24813;
     }
@@ -52,7 +73,6 @@ main {
   left: 30%;
   width: 70%;
   height: 100%;
-  padding: 15px yellow;
 }
 
 #profile {
