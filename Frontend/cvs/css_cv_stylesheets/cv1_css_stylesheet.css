@@ -20,7 +20,7 @@ html, body {
 }
 
 h1 {
-  padding: 15px;
+  padding: 5px;
   margin: 0;
   background-color: #00FF80;
   font-family: 'Bree Serif', serif;
@@ -78,29 +78,46 @@ aside {
       background-color: #B24813;
     }
 
-header {
+#visible {
+  position: fixed;
+  top: 0;
   float: right;
   left: 30%;
-  position: fixed;
-  /*height: 19%;*/
+  z-index: 1;
   width: 70%;
   padding: 15px;
   margin: 0;
-  top: 0;
   background-color: pink;
 }
   header p {
-
+    padding: 5px;
     background-color: violet;
   }
 
+  #hidden {
+    visibility: hidden;
+    top: 0;
+    float: right;
+    left: 30%;
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+    background-color: pink;
+  }
+    header p {
+      padding: 5px;
+      background-color: violet;
+    }
+
+
 main {
   clear: left;
-  margin-top: 1%;
+  /*z-index: 2;*/
+  /*margin-top: 18px;*/
   float: right;
   left: 30%;
   width: 70%;
-  padding: 7.5% 0% 0% 0%;
+  /*padding: 7.5% 0% 0% 0%;*/
   height: 100%;
 }
 
