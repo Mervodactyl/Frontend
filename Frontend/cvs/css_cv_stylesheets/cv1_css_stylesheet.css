@@ -60,6 +60,22 @@ ul {
   /*border: 1px solid;*/
 }
 
+a:link {
+  font-family: 'Bree Serif', serif;
+  text-decoration: none;
+  color: black;
+  }
+  a:visited {
+    text-decoration: none;
+    color: #DF6D1F;
+  }
+    a:hover {
+      color: #35A2C6;
+    }
+      a:active {
+        color: ;
+      }
+
 .orange {
   color:#DF6D1F;
   font-weight: bold;
@@ -106,7 +122,7 @@ aside {
   z-index: 1;
   width: 70%;
   padding: 1%;
-  opacity: 0.7;
+  /*opacity: 0.7;*/
   margin: 0;
   background: rgba(223, 84, 0, 0.9);
 }
@@ -167,12 +183,6 @@ main {
       padding-bottom: 3%;
     }
 
-
-/*ul {
-  padding: 1%;
-  margin: 0;
-  /*background-color: purple;*/
-
 nav {
   clear: left;
   padding: 1%;
@@ -201,17 +211,11 @@ nav {
       font-family: 'Bree Serif', serif;
       font-size: 1.3em;
       border-bottom: 1px dashed;
-
-    /*background-color: #01DF74;*/
     }
       #history .dates {
           float: left;
           padding: 1.62% 1% 0.5% 1%;
           margin: 0% 0% 0% 2%;
-      /*border-bottom: 1px dashed;*/
-
-          /*padding:;*/
-          /*background-color: #FA5858;*/
       }
         .summary {
           padding: 1%;
@@ -224,7 +228,6 @@ nav {
 #education {
   padding: 1%;
   margin: 0;
-  /*background-color: green;*/
 }
     .institutes {
       font-weight: bold;
@@ -237,21 +240,17 @@ nav {
     float: left;
     padding: 1%;
     margin: 0;
-    /*background-color: #FA5882;*/
   }
   #school {
     float: left;
     padding: 1%;
-    /*width: 79.85%;*/
     margin: 0;
-    /*background-color: #F6CEE3;*/
   }
 
 #interests {
   clear: left;
   padding: 1%;
   margin: 0;
-  /*background-color: violet;*/
 }
   #interests p {
     padding: 1%;
@@ -261,9 +260,6 @@ nav {
   }
 
 #references {
-  /*text: center;*/
   padding: 1%;
   border-bottom: 0;
-  /*border-top: 1px dashed;*/
-
 }
