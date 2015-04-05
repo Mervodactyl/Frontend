@@ -1,1 +1,2 @@
-# css_animation_games
+# MY CV
+My CV and links to my portfolio
