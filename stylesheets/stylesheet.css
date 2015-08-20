@@ -1,0 +1,283 @@
+/*  CSS stylesheet for - 'Desktop/CV/cv1.html'
+*                        'https://github.com/Mervodactyl/Frontend.git'
+*   <style type="text/css">
+*
+*   Standard size
+=============================================================================*/
+/*@import url(normalize.css);*/
+@import url(meyer-reset.css);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700);
+@import url(http://fonts.googleapis.com/css?family=Lusitana);
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5em;
+}
+
+body {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1em;
+  margin-bottom: 0.5em;
+
+  font-family: 'Raleway', serif;
+  border-bottom: 1px dashed;
+}
+
+h2 {
+  font-size: 2.25em;
+  line-height: 1.333333333333333em;
+  margin-bottom: 0.6666666666666667em;
+
+  font-family: 'Raleway', serif;
+  border-bottom: 2px solid;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1em;
+  margin-bottom: 1em;
+
+  font-family: 'Raleway', serif;
+  border-bottom: 1px dashed;
+}
+
+h6, li, p {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+
+  font-family: 'Lusitana', sans-serif;
+}
+
+ul {
+  font-family: 'Lusitana', sans-serif;
+}
+
+a:link {
+  font-family: 'Raleway', serif;
+  text-decoration: none;
+  color: black;
+  }
+  a:visited {
+    text-decoration: none;
+    color: #DF6D1F;
+  }
+    a:hover {
+      color: #35A2C6;
+    }
+
+/*.orange {
+  color:#DF6D1F;
+  font-weight: bold;
+}
+
+.blue {
+  color: #35A2C6;
+  font-weight: bold;
+}*/
+
+#side-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  padding-top: 10%;
+  /*padding: 5% 2% ;*/
+  /*background-color: #35A2C6;*/
+}
+  #side-panel #propho {
+    display: block;
+    margin: 0 auto;
+
+    /*float: right;*/
+    /*margin: 0;*/
+    width: 280px;
+    height: 245px;
+    /*border-radius: 50%;*/
+    box-shadow: 0px 0px 5px #fff;
+  }
+    #side-panel #info-card {
+      clear: right;
+      /*padding: 5% 0% 5% 30%;*/
+    }
+      #side-panel #info-card #contact {
+        /*padding: 1%;*/
+        text-align: center;
+      }
+        #side-panel #info-card #contact a:hover .icons{
+          -moz-box-shadow: 0px 0px 5px #fff;
+          -webkit-box-shadow: 0px 0px 5px #fff;
+          box-shadow: 0px 0px 5px #fff;
+        }
+        #side-panel #info-card #contact a:active .icons{
+          -moz-box-shadow: 0px 0px 5px #fff;
+          -webkit-box-shadow: 0px 0px 5px #fff;
+          box-shadow: 0px 0px 5px #fff;
+          height: 60px;
+          width: 60px;
+        }
+        #side-panel #info-card #contact a:visited .icons{
+          -moz-box-shadow: 0px 0px 5px #DF6D1F;
+          -webkit-box-shadow: 0px 0px 5px #DF6D1F;
+          box-shadow: 0px 0px 5px #DF6D1F;
+        }
+          #side-panel #info-card #contact a .icons {
+            height: 50px;
+            width: 50px;
+            /*border-radius: 50%;*/
+          }
+
+#visible {
+  position: fixed;
+  top: 0;
+  float: right;
+  left: 30%;
+  z-index: 1;
+  width: 70%;
+  /*padding: 1%;*/
+  /*margin: 0;*/
+  /*background: rgba(223, 84, 0, 0.9);*/
+  background: rgba(184, 63, 9, 0.7)
+}
+  header p {
+    /*padding: 1%;*/
+  }
+  #hidden {
+    visibility: hidden;
+    top: 0;
+    left: 30%;
+    width: 100%;
+    /*padding: 1%;*/
+    opacity: 0.7;
+    /*margin: 0;*/
+    /*background-color: rgba(223, 84, 0, 0.9);*/
+  }
+    header p {
+      /*padding: 1%;*/
+    }
+
+
+main {
+  clear: left;
+  float: left;
+  margin-left: 30%;
+  max-width: 75ch;
+}
+
+
+#profile {
+  /*padding: 1%;*/
+  /*margin: 0;*/
+}
+
+#skills {
+  /*padding: 1%;*/
+  /*margin: 0;*/
+}
+  #skills .skill-sections {
+    /*padding: 1% 3% 1% 5%;*/
+    /*margin: 0;*/
+    float: left;
+  }
+    #skills h3 {
+      border-bottom: 0;
+      /*padding-bottom: 3%;*/
+    }
+      #mis {
+        /*clear: left;*/
+      }
+
+nav{
+  clear: left;
+  /*padding: 1%;*/
+  }
+    nav li {
+      float: left;
+      /*padding: 0.5%;*/
+      /*margin: 3% 2%;*/
+      border-bottom: 1px dashed;
+    }
+
+#history {
+  clear: left;
+  /*padding: 1%;*/
+  /*margin: 0;*/
+}
+  #history h3 {
+    clear: left;
+    border-bottom: 0;
+    /*padding: 0.1% 1% 0.5% 1%;*/
+  }
+    #history .position {
+      float: left;
+      /*padding: 1% 1% 0.5% 1%;*/
+      font-family: 'Raleway', serif;
+      font-size: 1.3em;
+      border-bottom: 1px dashed;
+    }
+      #history .dates {
+          clear: left;
+          float: left;
+          /*padding: 1.62% 1% 0.5% 1%;*/
+          /*margin: 0% 0% 0% 2%;*/
+      }
+        .summary {
+          /*padding: 1%;*/
+        }
+          #history ul {
+            /*padding: 1% 5%;*/
+            /*margin: 0;*/
+          }
+
+#education {
+  /*padding: 1%;*/
+  /*margin: 0;*/
+}
+    .institutes {
+      font-weight: bold;
+    }
+      .education-summary {
+        /*padding: 1% 3%;*/
+      }
+
+  #wanstead {
+    float: left;
+    /*padding: 1%;*/
+    /*margin: 0;*/
+  }
+  #school {
+    float: left;
+    /*padding: 1%;*/
+    /*margin: 0;*/
+  }
+
+#interests {
+  clear: left;
+  /*padding: 1%;*/
+  /*margin: 0;*/
+}
+  #interests p {
+    /*padding: 1%;*/
+    /*margin: 0;*/
+  border-bottom: 1px dashed;
+  }
+
+#references {
+  /*padding: 1%;*/
+  border-bottom: 0;
+}
